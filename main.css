@@ -26,7 +26,6 @@ html, body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -68,4 +67,71 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+.header {
+  height: 6.8em;
+}
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.header__logo {
+  padding-top: 1.9em;
+}
+.header__nav {
+  font-size: 1em;
+}
+.header__list {
+  padding-top: 2.75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 43em;
+  font-weight: 400;
+}
+.header__item {
+  text-decoration: none;
+  color: black;
+}
+.header__item_underline {
+  text-decoration: underline;
+}
+.header__item_red {
+  color: red;
+}
+.header__user-interface {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 13.5em;
+}
+.header__icon-hearth {
+  color: rgb(121, 132, 192);
+  width: 1.25em;
+  height: 1.25em;
+  padding-top: 1.8em;
+}
+.header__icon-user {
+  color: rgb(144, 149, 169);
+  width: 1.5em;
+  height: 1.5em;
+  padding-top: 2.2em;
+}
+.header__button {
+  background: rgb(121, 132, 192);
+  width: 7.9em;
+  height: 3em;
+  border-radius: 12px;
+  color: white;
+  margin-top: 1.5em;
 }

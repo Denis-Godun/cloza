@@ -1,0 +1,80 @@
+
+.header {
+  height: 6.8em;
+
+  &__menu {
+    display: flex;
+    justify-content: space-around;
+  
+  }
+
+  &__logo {
+    padding-top: 1.9em;
+  }
+
+  &__nav {
+    font-size: 1em;
+  }
+
+  &__list {
+   
+    padding-top: 2.75em;
+    display: flex;
+    justify-content: space-between;
+    width: 43em;
+    font-weight: 400;
+  }
+
+  &__item {
+    text-decoration: none;
+    color: black;
+    &_underline {
+      text-decoration: underline;
+    }
+
+    &_red {
+      color: red;
+    }
+  }
+
+  &__user-interface {
+    
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    width: 13.5em;
+  }
+
+  &__icon-hearth {
+    color: rgba(121, 132, 192, 1);
+    width: 1.25em;
+    height: 1.25em;
+    padding-top: 1.8em;
+  }
+  &__hearth-sup{
+
+  }
+
+  &__icon-user {
+    color: rgba(144, 149, 169, 1);
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: 2.2em;
+  }
+
+  &__button {
+    background: rgba(121, 132, 192, 1);
+width: 7.9em;
+height: 3em;
+border-radius: 12px;
+color: white;
+margin-top: 1.5em;
+  }
+}
+.fa-regular {
+}
+.fa-heart {
+}
+.fa-user {
+}
+

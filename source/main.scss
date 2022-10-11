@@ -1,2 +1,7 @@
 @import 'zerostyle.scss';
 @import 'header.scss';
+.wrapper{
+    display: flex;
+    flex-direction: column;
+   
+}

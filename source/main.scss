@@ -1,7 +1,8 @@
-@import 'zerostyle.scss';
-@import 'header.scss';
-.wrapper{
-    display: flex;
-    flex-direction: column;
-   
+@import "zerostyle.scss";
+@import "header.scss";
+@import "slider.scss";
+.container {
+  width: 71.25em;
+  margin: auto;
+  margin-top: 21px;
 }

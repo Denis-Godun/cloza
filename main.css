@@ -572,6 +572,81 @@ h1, h2, h3, h4, h5, h6 {
   color: #7984C0;
 }
 
+.quality {
+  margin-top: 4em;
+  padding-bottom: 4em;
+}
+.quality__main {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 1.5em;
+}
+.quality__icon-block {
+  width: 7.75em;
+  height: 7.75em;
+  border: 2px solid #eff0f2;
+  border-radius: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.quality__quality__icon {
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.quality__text {
+  margin-top: 1.5em;
+}
+.quality__subtitle {
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 24px;
+}
+.quality__slogan {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 19px;
+  color: #9095a9;
+}
+
+.fa-cart-plus {
+  color: #7984c0;
+  font-size: 2.5em;
+}
+
+.fa-circle-check {
+  color: #7984c0;
+  font-size: 2.5em;
+}
+
+.fa-sliders {
+  color: #7984c0;
+  font-size: 2.5em;
+}
+
+.fa-handshake {
+  color: #7984c0;
+  font-size: 2.5em;
+}
+
 .container {
   width: 71.25em;
   margin: auto;

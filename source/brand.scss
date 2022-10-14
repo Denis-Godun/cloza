@@ -1,0 +1,34 @@
+.brand {
+
+    &__main {
+        margin-top: 3.75em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 59.25em;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__border-chevron{
+        width: 2em;
+        height: 2em;
+        border: 1px solid #EFF0F2;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+.fa-solid {
+}
+.fa-chevron-left {
+   
+}
+.fa-chevron-right {
+  
+}
+

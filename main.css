@@ -307,13 +307,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .product {
-  border-bottom: 1px solid #eff0f2;
   padding-bottom: 2em;
 }
 .product__pagination {
   height: 3.9rem;
   width: 71.25em;
-  border-bottom: 1px solid #eff0f2;
 }
 .product__list {
   display: -webkit-box;
@@ -442,17 +440,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 0.75em;
 }
 
-.categories__headline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 4em;
+.categories {
+  padding-bottom: 4em;
 }
 .categories__group {
   margin-top: 3em;
@@ -499,6 +488,43 @@ h1, h2, h3, h4, h5, h6 {
   color: #9095a9;
 }
 
+.brand__main {
+  margin-top: 3.75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.brand__logo {
+  width: 59.25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.brand__border-chevron {
+  width: 2em;
+  height: 2em;
+  border: 1px solid #EFF0F2;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .container {
   width: 71.25em;
   margin: auto;
@@ -516,5 +542,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link-all {
-  color: #7984C0;
+  color: #7984c0;
+}
+
+.block-underline {
+  border-bottom: 1px solid #eff0f2;
+}
+
+.headline-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4em;
 }

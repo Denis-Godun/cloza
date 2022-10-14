@@ -4,6 +4,7 @@
 @import "product.scss";
 @import "categories.scss";
 @import "brand.scss";
+@import "vendors.scss";
 .container {
   width: 71.25em;
   margin: auto;
@@ -22,7 +23,7 @@
   color: #7984c0;
 }
 .block-underline{
-  border-bottom: 1px solid #eff0f2;
+  border-bottom: 3px solid #eff0f2;
 }
 .headline-block{
   display: flex;

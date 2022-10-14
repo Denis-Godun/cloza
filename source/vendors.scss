@@ -1,0 +1,41 @@
+.vendors {
+  padding-bottom: 4em;
+  &__subject {
+    margin-top: 0.25em;
+    height: 2.68em;
+  }
+
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+  }
+
+  &__image {
+    width: 16.81em;
+    height: 16.81em;
+    background-size: cover;
+    background-image: url("img/Rectangle 1669.png");
+  }
+
+  &__stats {
+    margin-top: 1.5em;
+  }
+
+  &__name {
+    padding-bottom: 0.75em;
+  }
+
+  &__rating {
+    display: flex;
+    justify-content: start;
+    gap: 0.75em;
+  }
+
+  .fa-star {
+    color: #7984C0;
+  }
+  .fa-star-half-stroke {
+    color: #7984C0;
+  }
+}

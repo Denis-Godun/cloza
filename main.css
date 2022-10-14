@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .product__item_active {
   color: #7984c0;
-  border-bottom: 1px solid #7984c0;
+  border-bottom: 3px solid #7984c0;
 }
 .product__heading {
   display: -webkit-box;
@@ -488,6 +488,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #9095a9;
 }
 
+.brand {
+  padding-bottom: 4em;
+}
 .brand__main {
   margin-top: 3.75em;
   display: -webkit-box;
@@ -525,6 +528,50 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
 }
 
+.vendors {
+  padding-bottom: 4em;
+}
+.vendors__subject {
+  margin-top: 0.25em;
+  height: 2.68em;
+}
+.vendors__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.5em;
+}
+.vendors__image {
+  width: 16.81em;
+  height: 16.81em;
+  background-size: cover;
+  background-image: url("img/Rectangle 1669.png");
+}
+.vendors__stats {
+  margin-top: 1.5em;
+}
+.vendors__name {
+  padding-bottom: 0.75em;
+}
+.vendors__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 0.75em;
+}
+.vendors .fa-star {
+  color: #7984C0;
+}
+.vendors .fa-star-half-stroke {
+  color: #7984C0;
+}
+
 .container {
   width: 71.25em;
   margin: auto;
@@ -546,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .block-underline {
-  border-bottom: 1px solid #eff0f2;
+  border-bottom: 3px solid #eff0f2;
 }
 
 .headline-block {

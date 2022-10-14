@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .active {
-  background-color: #7984C0;
+  background-color: #7984c0;
 }
 
 .fade {
@@ -364,6 +364,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
   line-height: 19px;
 }
+.product__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5em;
+}
 .product__card {
   width: 16.68rem;
   height: 20.25rem;
@@ -374,6 +382,70 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("img/Rectangle 1668.png");
   background-size: cover;
 }
+.product___desc {
+  position: relative;
+  width: 3.31em;
+  height: 1.5em;
+  left: 1em;
+  top: 1em;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 0.25em 0.75em;
+}
+.product__info {
+  margin-top: 1em;
+}
+.product__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #eff0f2;
+  padding-bottom: 0.75em;
+}
+.product__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 8px;
+  font-size: 1em;
+}
+.product__description {
+  margin-top: 0.75em;
+}
+.product__text {
+  color: #9095a9;
+  padding-bottom: 0.5em;
+}
+.product__text_size {
+  padding-bottom: 1em;
+}
+.product__more {
+  display: block;
+  width: 10.31em;
+  height: 3em;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.fa-heart {
+  color: #7984c0;
+  padding-right: 0.75em;
+}
+
 .container {
   width: 71.25em;
   margin: auto;

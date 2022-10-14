@@ -1,38 +1,38 @@
-let index = 0;
- 
-show_slide = (i) => {
-  //инкремент/декремент слайд индекс
-  index += i;
+let slideIndex = 0;
 
+showSlides = (i) => {
   //вытягиваем все картинки
   let slide = document.getElementsByClassName("slider__slides");
   //вытягиваем все точки
   let dots = document.getElementsByClassName("dot");
 
   // скрываем все картинки
-  for (i = 0; i < slide.length; i++) 
-    slide[i].style.display = "none";
-  
+  for (i = 0; i < slide.length; i++) slide[i].style.display = "none";
+
   // убираем активный класс у всех точек
-  for (i = 0; i < dots.length; i++) 
+  for (i = 0; i < dots.length; i++)
     dots[i].className = dots[i].className.replace(" active", "");
-  
+
   // если индекс больше длинны всех объектов обнуляем значение индекса
-  if (index > slide.length - 1) 
-    index = 0 ;
-  
+  if (slideIndex > slide.length - 1) slideIndex = 0;
+
   // если индекс меньше нуля присваиваем ему значение последнего изображения
-  if (index < 0)
-    index = slide.length - 1;
+  if (slideIndex < 0) slideIndex = slide.length - 1;
 
   // делаем видимым изображение с текущим индексом
-  slide[index].style.display = "block";
+  slide[slideIndex].style.display = "block";
   // делаем активной точку с текущим индексом
-  dots[index].className += " active";
-
-}
+  dots[slideIndex].className += " active";
+};
 //вызываем функцию после полной загрузки окна браузера
+let timer = 0;
+makeTimer(); //Создаем интервал
+function makeTimer() {
+  clearInterval(timer); //Очистим интервал, это позволит прервать его работу и отменить перелистывание
+  timer = setInterval(function () {
+    slideIndex++;
+    showSlides(slideIndex);
+  }, 5000);
+}
 
-    setInterval(show_slide(0), 4000);
-
-
+showSlides(slideIndex);

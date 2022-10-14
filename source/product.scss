@@ -59,48 +59,82 @@
   }
 
   &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
   }
 
   &__card {
-    width:16.68rem ;
-    height:20.25rem ;
+    width: 16.68rem;
+    height: 20.25rem;
   }
 
   &__ {
     &_picture {
-        width:16.68em;
-        height:11.3em ;
-        background-image: url('img/Rectangle 1668.png');
-        background-size: cover;
-    }
-
-    &_img {
+      width: 16.68em;
+      height: 11.3em;
+      background-image: url("img/Rectangle 1668.png");
+      background-size: cover;
     }
 
     &_desc {
+      position: relative;
+      width: 3.31em;
+      height: 1.5em;
+      left: 1em;
+      top: 1em;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 0.25em 0.75em;
     }
   }
 
   &__info {
+    margin-top: 1em;
   }
 
   &__headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eff0f2;
+    padding-bottom: 0.75em;
   }
 
+  &__caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    font-size: 1em;
+  }
   &__price {
   }
-
+  &__description {
+    margin-top: 0.75em;
+  }
   &__text {
+    color: #9095a9;
+    padding-bottom: 0.5em;
+    &_size {
+      padding-bottom: 1em;
+    }
   }
 
   &__more {
+    display: block;
+    width: 10.31em;
+    height: 3em;
+    margin: auto;
+    margin-top: 2em;
   }
 }
 .fa-solid {
 }
-.fa-shield-check {
-}
 .fa-heart {
+  color: #7984c0;
+  padding-right: 0.75em;
 }
 .fa-cart-plus {
 }

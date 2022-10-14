@@ -1,0 +1,48 @@
+.categories {
+  &__headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4em;
+  }
+
+  &__group {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+
+  &__img {
+    width: 16.6em;
+    height: 16.6em;
+    background-size: cover;
+  }
+
+  &__img-backpack {
+    background-image: url("img/Rectangle 1671.png");
+  }
+  &__img-shoes {
+    background-image: url("img/Rectangle 1672.png");
+  }
+  &__img-thirt {
+    background-image: url("img/Rectangle 1673.png");
+  }
+  &__img-headdress {
+    background-image: url("img/Rectangle 1674.png");
+  }
+  &__name {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__subject {
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+}
+
+.fa-arrow-right {
+  color: #9095a9;
+}

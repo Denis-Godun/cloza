@@ -2,8 +2,17 @@
 @import "header.scss";
 @import "slider.scss";
 @import "product.scss";
+@import "categories.scss";
 .container {
   width: 71.25em;
   margin: auto;
   margin-top: 21px;
 }
+.subject-all{font-size: 2.25em;
+  line-height: 43px;
+  font-weight: 700;}
+
+  .subtitle-all{ color: #9095a9;}
+  .link-all{
+    color:#7984C0;
+  }

@@ -306,6 +306,10 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
   }
 }
+.product {
+  border-bottom: 1px solid #eff0f2;
+  padding-bottom: 2em;
+}
 .product__pagination {
   height: 3.9rem;
   width: 71.25em;
@@ -341,14 +345,6 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-align: center;
           align-items: center;
   width: 71.25em;
-}
-.product__subtitle {
-  color: #9095a9;
-}
-.product__subject {
-  font-size: 2.25em;
-  line-height: 43px;
-  font-weight: 700;
 }
 .product__label {
   color: #9095a9;
@@ -446,8 +442,79 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 0.75em;
 }
 
+.categories__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4em;
+}
+.categories__group {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1em;
+}
+.categories__img {
+  width: 16.6em;
+  height: 16.6em;
+  background-size: cover;
+}
+.categories__img-backpack {
+  background-image: url("img/Rectangle 1671.png");
+}
+.categories__img-shoes {
+  background-image: url("img/Rectangle 1672.png");
+}
+.categories__img-thirt {
+  background-image: url("img/Rectangle 1673.png");
+}
+.categories__img-headdress {
+  background-image: url("img/Rectangle 1674.png");
+}
+.categories__name {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.categories__subject {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.fa-arrow-right {
+  color: #9095a9;
+}
+
 .container {
   width: 71.25em;
   margin: auto;
   margin-top: 21px;
+}
+
+.subject-all {
+  font-size: 2.25em;
+  line-height: 43px;
+  font-weight: 700;
+}
+
+.subtitle-all {
+  color: #9095a9;
+}
+
+.link-all {
+  color: #7984C0;
 }

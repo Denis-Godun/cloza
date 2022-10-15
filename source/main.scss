@@ -6,6 +6,8 @@
 @import "brand.scss";
 @import "vendors.scss";
 @import "quality.scss";
+@import "blog.scss";
+
 .container {
   width: 71.25em;
   margin: auto;
@@ -23,12 +25,12 @@
 .link-all {
   color: #7984c0;
 }
-.block-underline{
+.block-underline {
   border-bottom: 3px solid #eff0f2;
 }
-.headline-block{
+.headline-block {
   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4em;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4em;
 }

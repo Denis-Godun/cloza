@@ -1,0 +1,52 @@
+.blog {
+  padding-bottom: 4.6em;
+
+  &__cards {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+  }
+
+  &__item {
+    width: 16.68em;
+    height: 24em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  &__img {
+    width: 16.68em;
+    height: 14em;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  &__date {
+    font-size: 0.8em;
+    color: #9095a9;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5em;
+  }
+
+  &__exerpt {
+    color: #9095a9;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.18em;
+  }
+
+  &__more {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

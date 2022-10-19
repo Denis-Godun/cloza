@@ -36,3 +36,4 @@ function makeTimer() {
 }
 
 showSlides(slideIndex);
+

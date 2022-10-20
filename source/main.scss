@@ -9,16 +9,26 @@
 @import "blog.scss";
 @import "footer.scss";
 
-.wrapper{
-  
+.wrapper {
 }
 .container {
   width: 71.25em;
   margin: auto;
   margin-top: 21px;
   @media screen and (min-width: 320px) and (max-width: 480px) {
-    width:20em;
-    
+    width: 20em;
+  }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    width: 30em;
+  }
+  @media screen and (min-width: 640px) and (max-width: 767px) {
+    width: 40em;
+  }
+  @media screen and (min-width: 768px) and (max-width: 979px) {
+    width: 48em;
+  }
+  @media screen and (min-width: 980px) and (max-width: 1199px) {
+   width: 61em;
   }
 }
 .subject-all {

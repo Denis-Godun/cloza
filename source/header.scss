@@ -1,31 +1,67 @@
 .header {
-  
   &__menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 6rem;
     width: 71.25em;
-  margin: auto;
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    width:20em;
-    flex-direction: column;
-    height: 7em;
+    margin: auto;
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      width: 20em;
+      flex-direction: column;
+      height: 7em;
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 30em;
+      flex-direction: column;
+      height: 7em;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      width: 48em;
+      flex-direction: column;
+      height: 5em;
+    }
+    @media screen and (min-width: 980px) and (max-width: 1199px) {
+      width: 61em;
+      flex-direction: column;
+    }
   }
-  
+  &__logo {
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+    @media screen and (min-width: 980px) and (max-width: 1199px) {
+      position: absolute;
+      left: 15px;
+      top: 15px;
+    }
   }
-&__logo{
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  }
-}
   &__nav {
     font-size: 1em;
     @media screen and (min-width: 320px) and (max-width: 480px) {
       padding-top: 2.5em;
-      }
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      padding-top: 2.5em;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      padding-top: 2.5em;
+    }
+    @media screen and (min-width: 980px) and (max-width: 1199px) {
+      padding-top: 2.5em;
+    }
   }
 
   &__list {
@@ -34,7 +70,12 @@
     width: 43em;
     font-weight: 400;
     @media screen and (min-width: 320px) and (max-width: 480px) {
-      width:20em;
+      width: 20em;
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 20em;
       flex-wrap: wrap;
       gap: 1em;
     }
@@ -59,11 +100,28 @@
     justify-content: space-around;
     width: 13.5em;
     @media screen and (min-width: 320px) and (max-width: 480px) {
-      width:10em;
-     position: absolute;
-     z-index: 300;
-    right:3px;
-    top:3px;
+      width: 10em;
+      position: absolute;
+      right: 3px;
+      top: 3px;
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 10em;
+      position: absolute;
+      right: 3px;
+      top: 3px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      width: 10em;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+    }
+    @media screen and (min-width: 980px) and (max-width: 1199px) {
+      width: 10em;
+      position: absolute;
+      right: 7px;
+      top: 7px;
     }
   }
 
@@ -102,14 +160,46 @@
     justify-content: center;
     align-items: center;
     @media screen and (min-width: 320px) and (max-width: 480px) {
-    width: 20em;
-      }
+      width: 20em;
+      padding-right: 5px;
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      width: 30em;
+      padding-right: 5px;
+    }
+    @media screen and (min-width: 640px) and (max-width: 767px) {
+      width: 40em;
+      padding-right: 5px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      width: 48em;
+      padding-right: 5px;
+    }
+    @media screen and (min-width: 980px) and (max-width: 1199px) {
+      width: 61em;
+      padding-right: 5px;
+    }
   }
 }
 
 .fa-magnifying-glass {
   color: white;
   padding-right: 12px;
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    padding-left: 5px;
+  }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    padding-left: 5px;
+  }
+  @media screen and (min-width: 640px) and (max-width: 767px) {
+    padding-left: 5px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 979px) {
+    padding-left: 5px;
+  }
+  @media screen and (min-width: 980px) and (max-width: 1199px) {
+    padding-left: 5px;
+  }
 }
 
 .all-buttons {

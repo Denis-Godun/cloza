@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 20em;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 1em;
+    gap: 0.3em;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 25em;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 1em;
+    gap: 0.5em;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;

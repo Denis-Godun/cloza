@@ -54,7 +54,7 @@
       padding-top: 2.5rem;
       padding-bottom: 2.5rem;
       height: 2.5rem;
-      
+  
     }
     @media screen and (min-width: 481px) and (max-width: 767px) {
       padding-top: 2.5rem;
@@ -63,7 +63,6 @@
     }
     @media screen and (min-width: 768px) and (max-width: 979px) {
       padding-top: 2.5rem;
-      padding-bottom: 2.5rem;
       height: 2.5rem;
     }
     @media screen and (min-width: 980px) and (max-width: 1199px) {
@@ -82,11 +81,15 @@
       width: 20em;
       flex-wrap: wrap;
       gap: 1em;
+      justify-content: center;
     }
     @media screen and (min-width: 481px) and (max-width: 767px) {
-      width: 20em;
+      width: 25em;
       flex-wrap: wrap;
       gap: 1em;
+      justify-content: center;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
     }
   }
 

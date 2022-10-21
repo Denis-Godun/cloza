@@ -169,7 +169,6 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .header__nav {
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
     height: 2.5rem;
   }
 }
@@ -196,14 +195,20 @@ h1, h2, h3, h4, h5, h6 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 1em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .header__list {
-    width: 20em;
+    width: 25em;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 1em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .header__item {

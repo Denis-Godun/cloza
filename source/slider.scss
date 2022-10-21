@@ -3,8 +3,18 @@
   position: relative;
   @media screen and (min-width: 320px) and (max-width: 480px) {
     width: 20em;
-    display: flex;
-    flex-direction: column;
+  }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    width: 30em;
+  }
+  @media screen and (min-width: 640px) and (max-width: 767px) {
+    width: 40em;
+  }
+  @media screen and (min-width: 768px) and (max-width: 979px) {
+    width: 48em;
+  }
+  @media screen and (min-width: 768px) and (max-width: 979px) {
+    width: 61.25em;
   }
 
   &__slides {
@@ -19,7 +29,16 @@
     bottom: 0;
     border-radius: 12px;
     @media screen and (min-width: 320px) and (max-width: 480px) {
-      
+      background-position: center;
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      background-position: center;
+    }
+    @media screen and (min-width: 640px) and (max-width: 767px) {
+      background-position: center;
+    }
+    @media screen and (min-width: 980px) and (max-width: 1199px) {
+      background-position: right;
     }
   }
 
@@ -35,6 +54,29 @@
     left: calc(50% - 506px / 2 - 285px);
     top: 79px;
     @media screen and (min-width: 320px) and (max-width: 480px) {
+      left: 5.5em;
+      top: 0;
+      width: 14.3em;
+    }
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+      left: 15em;
+      top: 1em;
+      width: 15em;
+    }
+    @media screen and (min-width: 640px) and (max-width: 767px) {
+      left: 23em;
+      top: 1em;
+      width: 15em;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      left: 1em;
+      top: 0;
+      width: 14.3em;
+    }
+    @media screen and (min-width: 980px) and (max-width: 1199px) {
+      left: 1em;
+      top: 0;
+      width: 14.3em;
     }
   }
 
@@ -43,6 +85,9 @@
     font-size: 2.25em;
     line-height: 43px;
     @media screen and (min-width: 320px) and (max-width: 480px) {
+      color: gray;
+    }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
     }
   }
 
@@ -52,7 +97,9 @@
     font-size: 1.25em;
     line-height: 24px;
     @media screen and (min-width: 320px) and (max-width: 480px) {
+      color: gray;
     }
+  
   }
 
   &__exerpt {
@@ -65,8 +112,6 @@
     align-self: stretch;
     flex-grow: 0;
     margin-top: 1em;
-    @media screen and (min-width: 320px) and (max-width: 480px) {
-    }
   }
 
   &__button {
@@ -86,8 +131,7 @@
     font-size: 1em;
     line-height: 19px;
     color: white;
-    @media screen and (min-width: 320px) and (max-width: 480px) {
-    }
+   
   }
 }
 .dot {
@@ -104,8 +148,7 @@
   position: absolute;
   top: 23em;
   left: 2em;
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-  }
+  
 }
 .active {
   background-color: #7984c0;

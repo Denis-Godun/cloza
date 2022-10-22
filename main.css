@@ -627,6 +627,16 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
   }
 }
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .product__list {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .product__list {
+    margin: auto;
+  }
+}
 .product__item {
   line-height: 19px;
 }
@@ -661,6 +671,43 @@ h1, h2, h3, h4, h5, h6 {
             align-items: flex-start;
     gap: 10px;
     margin-top: 10px;
+    width: 20em;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .product__heading {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    width: 30em;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .product__heading {
+    width: 40em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .product__heading {
+    width: 48em;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+  .product__heading {
+    width: 61em;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 .product__label {
@@ -699,6 +746,29 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .product__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .product__content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+  .product__content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 .product__card {

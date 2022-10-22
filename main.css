@@ -494,6 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .slider__title {
     color: gray;
+    line-height: 25px;
   }
 }
 .slider__subtitle {
@@ -505,6 +506,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .slider__subtitle {
     color: gray;
+    margin-top: 1px;
   }
 }
 .slider__exerpt {
@@ -566,11 +568,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   -webkit-transition: background-color 2s ease;
   transition: background-color 2s ease;
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .dot {
-    margin-top: 25px;
-  }
 }
 
 .dots {

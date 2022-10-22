@@ -88,6 +88,7 @@
     line-height: 43px;
     @media screen and (min-width: 320px) and (max-width: 480px) {
       color: gray;
+      line-height: 25px;
     }
     @media screen and (min-width: 768px) and (max-width: 979px) {
     }
@@ -100,6 +101,7 @@
     line-height: 24px;
     @media screen and (min-width: 320px) and (max-width: 480px) {
       color: gray;
+      margin-top: 1px;
     }
   
   }
@@ -145,9 +147,6 @@
   background-color: gray;
   border-radius: 50%;
   transition: background-color 2s ease;
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    margin-top: 25px;
-  }
 }
 .dots {
   position: absolute;
